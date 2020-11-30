@@ -1,0 +1,112 @@
+
+#main-header{
+	background-color: coral;
+	color: white;
+	margin: auto;
+    padding: 3rem 2rem;
+    height: 50px
+}
+
+
+#sub-header{
+	background-color: #333;
+	color:#fff;
+	padding: 5px;
+	padding-left: 25px;
+}
+
+#showcase-pic{
+	float: right;
+	width: 30%;
+	display: inline-flex;
+	padding-top: 40px;
+}
+
+#Intro{
+	float: left;
+	width: 50%;
+	display: inline-flex;
+}
+
+#Basic-Info ul{
+    list-style-type: none;
+    list-style: none;
+    padding: 0;
+}
+
+#Basic-Info li{
+    border-left: 5px solid #ddd;
+     font-size: 20px;
+
+}
+
+#Basic-Info li:hover{
+    border-color: red;
+}
+
+.data{
+	padding: 20px;
+    margin: 20px 10px;
+}
+
+#Main-Intro{
+	float: left;
+	width: 1100px;
+	font-family: fantasy;
+	font-size: 25px;
+	text-align: justify;
+
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.container-1{
+    width: 85%;
+    max-width: 100%;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    padding-left: 50px;
+    overflow: hidden;
+    border: 1px solid lightgray;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+#Main h1{
+	clear: all;
+}
+
+.items li {
+  padding: 5px;
+  background: #f4f4f4;
+  margin: 5px 0;
+  list-style-type: none;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.container{
+	background-color: mistyrose;
+}

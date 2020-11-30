@@ -1,0 +1,175 @@
+body{
+background: #f4f4f4;
+color: #555;
+font-family:Arial,Helveticca;
+font-size: 16px;
+line-height:1.6em;
+margin: 0;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#container-1{
+	display: inline-flex;
+	padding-left:500px;
+	padding-right: 100px;
+	border-right: 2px solid black;
+}
+
+#container-2{
+	display: inline-flex;
+	padding-left: 200px;
+	padding-right: 200px;
+	border-right: 2px solid black;
+}
+
+#container-3{
+	display:inline-flex;
+	padding-left: 200px;
+	padding-right: 100px;
+}
+}
+
+.button{
+	background-color: black;
+	color: white;
+	padding: 10px,15px;
+	height: 30px;
+	border: white;
+}
+
+#main-header{
+	background-color: coral;
+	color: white;
+}
+
+#nav-bar
+{
+	background-color: #333;
+	color:#fff;
+}
+
+#nav-bar ul{
+	padding: 0;
+	list-style: none;
+}
+
+#nav-bar li{
+	display: inline-block;
+	border: 1px white solid;
+	padding-left: 10px;
+}
+
+#nav-bar a{
+	color: #ffff;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 20px;
+}
+
+#nav-bar a:hover{
+	background-color: purple;
+	color: red;
+}
+
+#showcase{
+	background-image: url('C:/Users/Aditya Arun Iyer/Documents/LoT Web Dev Task Phase/My Website/Images/showcase_background.jpg');
+	color: yellow;
+	width: 242px
+	height: 200px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#showcase h1{
+	color: lightgreen;
+	font-size: 20px;
+	line-height: 1.6em;
+	padding-top: 30px;
+}
+
+.main{
+	float: left;
+	width: 70%;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+.sidebar{
+	float: right;
+	background-image: url('C:/Users/Aditya Arun Iyer/Pictures/Camera Roll/Profilepic.jpeg');
+	width: 30%;
+	padding: 10px;
+	background-repeat: no-repeat;
+	height: 250px;
+	box-sizing: border-box;
+	position: relative;
+	top: 100px;
+
+}
+
+#main-footer{
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	background: #333;
+	padding: 20px;
+	margin-top: 40px;
+}
+
+.social{
+	background: lightblue;
+	padding-bottom: 10px;
+}
+
+.social h1{
+	font-family: serif;
+	text-decoration: underline;
+	color: green;
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+@media(max-width: 600px)
+{
+	.main{
+		width: 100%
+		float: none;
+
+	}
+
+	.sidebar{
+		width: 100%;
+		float: none;
+	}
+}
+
+#container-1 :hover{
+	height: 200px;
+	width: 200px;
+
+}
+
+#container-2 :hover{
+	height: 200px;
+	width: 200px;
+}
+
+#container-3 :hover{
+	height: 200px;
+	width: 200px;
+}
+
+.marq{
+	float: right;
+	width: 50%;
+	font-weight: bold;
+	font-family: cursive;
+	color: red;
+	border-color: black;
+}
