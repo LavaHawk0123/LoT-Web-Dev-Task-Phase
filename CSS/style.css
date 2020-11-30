@@ -1,0 +1,191 @@
+/* Makes everything the same as entered here
+{
+	border: 0;
+	padding: 0;
+}
+*/
+
+h1{
+	color: yellow;
+	margin: 20px;
+	padding: 10px;
+}
+h2{
+	color: yellow;
+	margin: 20px;
+	padding: 10px;
+}
+
+a{
+	text-decoration: none;
+	color: black
+}
+a:hover{
+	color: red;
+}
+
+body{
+	background-color:#f4f4f4; /*grey*/
+	color:#555555;
+	font-family: serif;
+	font-size:20px;
+	font-weight: normal;
+	/*font: normal 20px serif;*/
+	line-height:1.6em;
+	margin: 0;
+}
+
+.clr{
+	clear: both;
+}
+.container{
+	width: 80%;
+	margin: auto;
+	background-color: grey;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.button{
+	background-color: black;
+	color: white;
+	padding: 10px,15px;
+	border: white;
+}
+
+.button:hover{
+	background-color: red;
+	color: white;
+}
+.box-1{
+	background-color: #333333;
+	color: #fff;
+	border: 5px red solid;
+	border-top-style: dotted;
+	margin: 20px;
+	padding: 20px;
+	font-family: Tahoma;
+	font-weight: 600;
+}
+
+.container h1{
+	font-style: italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0;
+
+}
+
+.container h2{
+	font-style: italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0;
+
+}
+
+
+.box-2{
+	margin: 20px;
+	padding: 10px;
+	border: 10px blue solid;
+	border-top-style: dotted;
+	color: white;
+	font-weight: bold;
+	background-color: #333333;
+}
+
+.categories{
+	border: 10px green solid;
+	padding: 10px;
+	border-radius: 15px;
+	margin: 10px;
+
+}
+
+.categories li{
+	padding: 8px;
+	border-bottom: dotted 1px blue;
+	list-style-image: url('C:/Users/Aditya Arun Iyer/Documents/LoT Web Dev Task Phase/CSS/tick.png');
+
+}.my-form{
+	padding: 20px;
+	margin: 10px;
+	color: cyan;
+	font-weight: bold;
+}
+
+.my-form .form-group{
+	padding-bottom: 15px;
+}
+
+.my-form label{
+	display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+	padding: 8px;
+	width: 100%;
+
+}
+.block{
+	float: left;
+	color: blue;
+	background-color: gray;
+	width: 33.33%;
+	border: 1px solid red;
+	box-sizing: border-box;
+}
+
+.box h3{
+	color: yellow;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.main-block{
+	margin-top: 10px; 
+	float: left;
+	width: 70%;
+	border: 1px solid black;
+	box-sizing: border-box;
+
+
+}
+
+.side-bar{
+	margin-top: 10px;
+	float: right;
+	width: 30%;
+	border: 1px solid black;
+	box-sizing: border-box;
+
+}
+
+.p-box{
+	width: 800px;
+	height: 500px;
+
+	border: 1px solid black;
+	border
+	margin-left: 50px;
+	padding-left: 50px;
+	background-image: url('C:/Users/Aditya Arun Iyer/Documents/LoT Web Dev Task Phase/CSS/bgpic.jpg');
+	background-repeat: no-repeat;
+	/*background-position: 100px 200px;*/
+	background-position: center center;
+}
+
+.p-box h2{
+	color: black;
+}
+
+.p-box h3{
+	color: black;
+	
+}
+
+#fixed-but{
+	position: fixed;
+	top: 400px;
+}
